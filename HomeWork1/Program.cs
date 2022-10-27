@@ -1,1 +1,1 @@
-﻿
+﻿return args[0].Length;
