@@ -45,11 +45,13 @@ namespace FirstClass
             if (_address == null || Nickname == null)
             {
                 return "Haven`t address or nickname";
-            }else if (!string.IsNullOrEmpty(Nickname))
+            }
+            else if (!string.IsNullOrEmpty(Nickname))
             {
                 return $"Nickname is {Nickname}";
             }
-            else { return $"Address is {_address}"; }
+            else
+            { return $"Address is {_address}"; }
         }
 
         public override bool Equals(object? obj)
@@ -61,6 +63,7 @@ namespace FirstClass
             House other = (House)obj;
             return this._address == other._address;
         }
+
         public override int GetHashCode()
         {
             return HashCode.Combine(this);
@@ -70,6 +73,7 @@ namespace FirstClass
         {
             return house1.Equals(house2);
         }
+
         public static bool operator !=(House house1, House house2)
         {
             return !(house1 == house2);
