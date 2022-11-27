@@ -5,7 +5,9 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork1", "HomeWork1\HomeWork1.csproj", "{CF04DD47-699D-40F9-8368-6C53EE669EB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstClass", "FirstClass\FirstClass.csproj", "{F42D59C0-6E44-4CD9-AF53-0FAA16296055}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstClass", "FirstClass\FirstClass.csproj", "{F42D59C0-6E44-4CD9-AF53-0FAA16296055}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{91AD8695-E96F-4138-9588-1B8DB9604615}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F42D59C0-6E44-4CD9-AF53-0FAA16296055}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F42D59C0-6E44-4CD9-AF53-0FAA16296055}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F42D59C0-6E44-4CD9-AF53-0FAA16296055}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91AD8695-E96F-4138-9588-1B8DB9604615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91AD8695-E96F-4138-9588-1B8DB9604615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91AD8695-E96F-4138-9588-1B8DB9604615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91AD8695-E96F-4138-9588-1B8DB9604615}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
